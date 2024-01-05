@@ -1,0 +1,20 @@
+.navbar {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  background-color: aqua;
+  box-sizing: border-box;
+  flex-direction: row;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  color: green;
+  flex-direction: row;
+}
+
+li {
+  display: flex;
+  /* Add additional styling as needed */
+}

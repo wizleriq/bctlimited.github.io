@@ -1,0 +1,71 @@
+.main {
+  width: 60%; 
+  margin: 0 auto; 
+  background-color: aliceblue;
+  padding: 10px;
+  margin-top: 10%;
+  /* height: 10%; */
+}
+img{
+  width: 100%;
+  
+  border-radius: 10px;
+}
+
+.text {
+ color: aqua;
+ margin-top: 7px;
+ margin-bottom: 11px;
+ font-weight: 700;
+ font-size: 20px;
+}
+
+.enter{
+  font-size: 13px;
+}
+
+.block{
+  margin-top: 12px;
+  margin-bottom: 12px;
+  height: 100%;
+}
+
+.tex{
+  color: #545F7D;
+  margin-bottom: 20px;
+}
+
+.input{
+  background-color: gainsboro;
+  border-radius: 10px;
+  border: 1px thin #545F7D;
+  height: 30px;
+  width: 100%;
+}
+
+.enter {
+  
+}
+.btn {
+  width: 100%;
+  height: 40px;
+  margin-top: 30px;
+  background-color: #4caf50; /* Add background color or customize as needed */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  /* Add any other button styles */
+}
+
+@media screen and (max-width: 768px) {
+ .main{
+  width: 100%;
+  margin: 0;
+ }
+}
+
+
+/* .input {
+  width: 100%; 
+} */
